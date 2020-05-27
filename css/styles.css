@@ -1,47 +1,88 @@
-#title {
-      background-color: #ff4c68;
-      color: #fff;
-      /*position: absolute;
-      left: 25%;*/
-}
+/* order of rule priority first id then class then hn
+inline style higher priority than id
+use ids sparingly use cards instead : for a section. use for a carousel or
+*/
 
-.container-fluid{
-    padding: 3% 15%;
-}
 
-.button-img{
-  background-image:#f14a;
-}
 body{
   font-family: "Montserrat";
   /*font-style: italic;*/
 }
 
-h1{
-  font-family: "Montserrat-Black" ;
-  font-family: sans-serif;
-  font-size: 3rem;
-  line-height:1.5;
-}
-
-h2{
-  font-family: "Montserrat" ;
-  font-size: 3rem;
-}
-
-h3{
-  font-weight: bold;
-  font-size: 1.2em ;
+h1, h2, h3, h4, h5{
+  font-family: "Montserrat-Bold" ;
 }
 
 p{
   font-size: 12px ;
+  color=#8f8f8f;
 }
 
+.big-heading{
+  font-family: "Montserrat-Black" ;
+  font-family: sans-serif;
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+/*Section */
+.white-section{
+  background-color: #fff;
+  color: #black;
+}
+
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#title {
+      /*position: absolute;
+      left: 25%;*/
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.button-img{
+  background-image:#f14a;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+/*AY start*/
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+      font-size:1.2rem;
+      font-family:"Montserrat-Light";
+}
+
+.download-button{
+      margin: 5% 3% 5% 0;
+}
+/*AY end*/
+
 #features{
-  background-color: grey;
   padding: 7% 15%;
   text-align: center;
+  /* position:relative:        AY*/;
 }
 
 .feature-box{
@@ -56,21 +97,49 @@ p{
 
 .icon:hover{
     /*color:#ff4c68;*/
-    color:blue;
+    /*color:blue;*/
 }
 
 #testimonials{
     background-color:#ef8172;
     text-align: center;
     padding: 7% 15%;
-    color:#fff;
 }
 
 .testimonials-img{
+      width:10%;                      /*AY*/
+      border-radius:100%;      /*AY*/
+      margin:20px;                  /*AY*/
+}
+
+.testimonial-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+
+/*id="testimonial-carousel" class="carousel slide"*/
+#testimonial-carousel{
+
+  }
+
+/*.carousel slide{
+
+}*/
+
+.carousel-item{
+    padding:7% 15%;          /*AY*/
 }
 
 #card-title{
       padding:2%;
+}
+
+.card #planH2{
+    /*color: red;*/
+}
+
+.card-deck h2{
+    color:green;
 }
 
 #press{
@@ -89,8 +158,53 @@ p{
 }
 
 #cta{
-  background-color:#ef8172;
   text-align: center;
-  padding: 2%;
+  padding: 7% 15%;
+  font-weight: bold;
 }
-/* Navigation Bar */
+
+.cta-heading{
+  /*background-color: blue;*/
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+
+#cta-button{
+  padding-top: 30px;
+}
+
+
+/* Footer Section */
+#footer{
+    text-align: center;
+    padding: 70px;
+    /* padding:7% 15% ;   AY*/
+    background-color: #e8e4e1;
+    color:#706c61;
+    font-weight: bold;
+}
+
+#footer-icon{
+   margin-bottom: 1rem;
+   /*margin:20px 10px;    AY*/
+}
+
+.foot-icon{
+/*  color:blue;
+  width: 100em;*/
+}
+
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+
+
+/*    background-color: */
