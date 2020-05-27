@@ -1,0 +1,96 @@
+#title {
+      background-color: #ff4c68;
+      color: #fff;
+      /*position: absolute;
+      left: 25%;*/
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.button-img{
+  background-image:#f14a;
+}
+body{
+  font-family: "Montserrat";
+  /*font-style: italic;*/
+}
+
+h1{
+  font-family: "Montserrat-Black" ;
+  font-family: sans-serif;
+  font-size: 3rem;
+  line-height:1.5;
+}
+
+h2{
+  font-family: "Montserrat" ;
+  font-size: 3rem;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1.2em ;
+}
+
+p{
+  font-size: 12px ;
+}
+
+#features{
+  background-color: grey;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.feature-box{
+      text-align:center;
+      padding:4.5%;
+}
+
+.icon{
+   color:red;
+   margin-bottom: 1rem;
+}
+
+.icon:hover{
+    /*color:#ff4c68;*/
+    color:blue;
+}
+
+#testimonials{
+    background-color:#ef8172;
+    text-align: center;
+    padding: 7% 15%;
+    color:#fff;
+}
+
+.testimonials-img{
+}
+
+#card-title{
+      padding:2%;
+}
+
+#press{
+    /*font-size: 2px;*/
+    background-color:#ef8172;
+    margin-bottom: 2rem;
+    padding: 2%;
+    align-items: center;
+}
+
+.press-box{
+      /*background-color: blue;*/
+      width:300px;
+      padding:1%;
+      padding-right: 4%;
+}
+
+#cta{
+  background-color:#ef8172;
+  text-align: center;
+  padding: 2%;
+}
+/* Navigation Bar */
